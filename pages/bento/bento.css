@@ -49,20 +49,21 @@ header {
     width: 100%;
     height: 4rem;
 
-    background-color: var(--red);
+    /* background-color: var(--red); */
 
     display: flex;
     justify-content: space-between;
     align-items: center;
 
-    padding: 0 2.5rem;
+    padding: 0.5rem 2.5rem;
+    padding-top: 1.75rem;
 }
 
 header h1 {
     font-family: var(--heading-font);
-    font-size: 3rem;
+    font-size: 4rem;
     letter-spacing: 3px;
-    color: var(--cream);
+    color: var(--red);
 }
 
 header a {
@@ -79,15 +80,15 @@ header a button {
     letter-spacing: 2px;
     /* font-weight: 800; */
 
-    background-color: var(--yellow);
-    color: var(--blue);
+    background-color: var(--blue);
+    color: var(--yellow);
 
-    transition: all 0.2s ease-in;
+    transition: all 0.2s ease-out;
 }
 
 header a:hover button {
-    background-color: var(--blue);
-    color: var(--yellow);
+    background-color: var(--yellow);
+    color: var(--red);
 }
 
 

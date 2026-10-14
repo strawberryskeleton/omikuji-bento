@@ -86,7 +86,7 @@ main a button {
     background-color: var(--blue);
     color: var(--cream);
 
-    transition: all 0.2s ease-in;
+    transition: all 0.2s ease-out;
 }
 
 main a:hover button {
