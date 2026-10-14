@@ -201,3 +201,24 @@ main #main-grid {
     height: 100%;
     object-fit: contain;
 }
+
+
+
+footer {
+    /* height: 2; */
+    background-color: var(--blue);
+    padding: 0.5rem;
+    text-align: center;
+    font-size: 1.1rem;
+    color: var(--cream);
+    letter-spacing: 2px;
+}
+
+footer a {
+    color: var(--yellow);
+    transition: all 0.2s ease-in;
+}
+
+footer a:hover {
+    color: var(--brown);
+}
