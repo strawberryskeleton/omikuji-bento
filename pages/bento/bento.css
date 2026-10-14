@@ -1,3 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&family=Gamja+Flower&display=swap');
+
+:root {
+    /* fonts */
+    --heading-font: "Japan Ramen", var(--sub-heading-font);
+    --sub-heading-font: "Cherry Bomb One", system-ui;
+    --body-font: "Gamja Flower", sans-serif;
+
+    font-family: var(--body-font);
+
+    /* color palette */
+    --dark-brown: #250001;
+    --brown: #590004;
+    --red: #A91314;
+    --yellow: #FFB607;
+    --cream: #FCECBB;
+    --blue: #236092;
+}
+
+@font-face {
+    font-family: "Japan Ramen";
+    src: url('./global-assets/JAPAN\ RAMEN.otf') format('opentype');
+}
 
 *,
 *::before,
@@ -5,4 +28,91 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+/* ------------------------------------------------------------------ */
+
+body {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+
+    background-color: var(--cream);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+header {
+    width: 100%;
+    height: 4rem;
+
+    background-color: var(--red);
+}
+
+
+main {
+    width: 100%;
+    flex-grow: 1;
+    /* background-color: var(--dark-brown); */
+    padding: 2rem;
+}
+
+#bento-grid {
+    width: 70%;
+    height: 100%;
+    margin: 0 auto;
+    background-color: var(--dark-brown);
+    border: 16px solid var(--dark-brown);
+    border-radius: 15px;
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 12px;
+}
+
+.food1 {
+    grid-row: span 4 / span 4;
+    background-color: var(--brown);
+    border-radius: 12px;
+}
+
+.food2 {
+    grid-row: span 2 / span 2;
+    background-color: var(--brown);
+    border-radius: 12px;
+}
+
+.food3 {
+    grid-column: span 2 / span 2;
+    grid-row: span 2 / span 2;
+    background-color: var(--brown);
+    border-radius: 12px;
+}
+
+.food4 {
+    grid-column: span 2 / span 2;
+    grid-row: span 2 / span 2;
+    grid-column-start: 2;
+    grid-row-start: 3;
+    background-color: var(--brown);
+    border-radius: 12px;
+}
+
+.food5 {
+    grid-row: span 2 / span 2;
+    grid-column-start: 4;
+    grid-row-start: 3;
+    background-color: var(--brown);
+    border-radius: 12px;
+}
+
+
+footer {
+    width: 100%;
+    height: 2rem;
+    background-color: var(--blue);
 }
