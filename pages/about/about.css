@@ -80,3 +80,29 @@ header h1 {
     font-size: 6rem;
     color: var(--red);
 }
+
+header .divider {
+    width: 50%;
+    margin: 0 auto;
+}
+
+header .divider img {
+    width: 100%;
+}
+
+
+
+/*👉#about-bento {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 3rem;
+    background-color: var(--brown);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#about-bento .image img {
+    width: 100%;
+}👈*/
