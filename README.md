@@ -1,5 +1,5 @@
-# omikuji-bento
-bento themed fortune teller website
+# Omikuji Bento
+it's like fortune cookie, but bento!
 
 
 project planning:
@@ -22,3 +22,5 @@ FINDING ASSETS
 Credits:
 https://www.1001fonts.com/japan-ramen-font.html
 https://in.pinterest.com/pin/1131810950127102330/ - color palette
+https://en.wikipedia.org/wiki/O-mikuji
+https://en.wikipedia.org/wiki/Bento

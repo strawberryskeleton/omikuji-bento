@@ -140,6 +140,7 @@ main #main-grid {
     font-size: 2.5rem;
     color: var(--yellow);
     letter-spacing: 2px;
+    margin-bottom: 1rem;
 }
 
 .bento-text p {
@@ -178,6 +179,7 @@ main #main-grid {
     font-size: 2.5rem;
     color: var(--yellow);
     letter-spacing: 2px;
+    margin-bottom: 1rem;
 }
 
 .omikuji-text p {
