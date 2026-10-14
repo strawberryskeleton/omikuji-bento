@@ -149,6 +149,11 @@ main {
     border-radius: 12px;
 }
 
+.food1 .food-img img {
+    width: 90%;
+    margin: auto 0;
+}
+
 .sushi1 {
     display: inline;
     position: absolute;
@@ -160,7 +165,7 @@ main {
 .sushi2 {
     display: inline;
     position: absolute;
-    top: 20%;
+    top: 22%;
     /* left: 0; */
     z-index: 4;
 }
@@ -168,7 +173,7 @@ main {
 .sushi3 {
     display: inline;
     position: absolute;
-    top: 40%;
+    top: 44%;
     /* left: 0; */
     z-index: 6;
 }
@@ -176,7 +181,7 @@ main {
 .sushi4 {
     display: inline;
     position: absolute;
-    top: 60%;
+    top: 66%;
     /* left: 0; */
     z-index: 8;
 }
@@ -300,6 +305,16 @@ main {
 
 footer {
     width: 100%;
-    height: 2rem;
-    background-color: var(--blue);
+    height: 1.75rem;
+    /* background-color: var(--blue); */
+    text-align: center;
+
+    color: var(--red);
+    font-size: 1.1rem;
+    letter-spacing: 2px;
+}
+
+footer a {
+    text-decoration: none;
+    color: var(--blue);
 }
