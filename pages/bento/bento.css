@@ -308,6 +308,52 @@ main {
 
 
 
+#scroll {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.4);
+
+    /* display: block; */
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    display: none;
+}
+
+#scroll .scroll-div {
+    width: 80%;
+    height: 60%;
+    background-color: var(--cream);
+    background: url('./assets/scroll.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    /*👉position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);👈*/
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#scroll .scroll-div #fortune-text {
+    font-size: 2rem;
+    color: var(--red);
+
+    width: 65%;
+    text-align: center;
+}
+
+
+
 
 footer {
     width: 100%;
