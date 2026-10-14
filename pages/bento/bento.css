@@ -74,18 +74,98 @@ main {
     gap: 12px;
 }
 
+.food {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* overflow: hidden; */
+
+    /* position: relative; */
+}
+
+.food-img {
+    width: 95%;
+    height: 95%;
+    /* margin: 0 auto; */
+    /* background-color: #236092; */
+
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.food-img img {
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+/* SUSHI */
 .food1 {
     grid-row: span 4 / span 4;
     background-color: var(--brown);
     border-radius: 12px;
 }
 
+.sushi1 {
+    display: inline;
+    position: absolute;
+    top: 0;
+    /* left: 0; */
+    z-index: 2;
+}
+
+.sushi2 {
+    display: inline;
+    position: absolute;
+    top: 20%;
+    /* left: 0; */
+    z-index: 4;
+}
+
+.sushi3 {
+    display: inline;
+    position: absolute;
+    top: 40%;
+    /* left: 0; */
+    z-index: 6;
+}
+
+.sushi4 {
+    display: inline;
+    position: absolute;
+    top: 60%;
+    /* left: 0; */
+    z-index: 8;
+}
+
+/* MOCHI */
 .food2 {
     grid-row: span 2 / span 2;
     background-color: var(--brown);
     border-radius: 12px;
 }
 
+/*👉.mochi1 {
+    display: inline;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 4;
+}👈*/
+
+/*👉.mochi2 {
+    display: inline;
+    position: absolute;
+    top: 35%;
+    left: 0;
+    z-index: 4;
+}👈*/
+
+/* ONIGIRI */
 .food3 {
     grid-column: span 2 / span 2;
     grid-row: span 2 / span 2;
@@ -93,6 +173,37 @@ main {
     border-radius: 12px;
 }
 
+.food3 .food-img img {
+    height: 75%;
+    width: auto;
+    /* margin: auto 0; */
+}
+
+.onigiri1 {
+    display: inline;
+    position: absolute;
+    /* top: 0; */
+    left: 0;
+    z-index: 2;
+}
+
+.onigiri2 {
+    display: inline;
+    position: absolute;
+    /* top: 0; */
+    left: 25%;
+    z-index: 4;
+}
+
+.onigiri3 {
+    display: inline;
+    position: absolute;
+    /* top: 0; */
+    left: 50%;
+    z-index: 6;
+}
+
+/* TAIYAKI */
 .food4 {
     grid-column: span 2 / span 2;
     grid-row: span 2 / span 2;
@@ -102,12 +213,47 @@ main {
     border-radius: 12px;
 }
 
+/*👉.food4 .food-img {
+    background-color: #236092;
+}👈*/
+
+.food4 .food-img img {
+    /* height: 75%; */
+    width: 85%;
+    /* margin: auto 0; */
+}
+
+/*👉.taiyaki1 {
+    display: inline;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 4;
+}👈*/
+
+/* TAMAGOYAKI */
 .food5 {
     grid-row: span 2 / span 2;
     grid-column-start: 4;
     grid-row-start: 3;
     background-color: var(--brown);
     border-radius: 12px;
+}
+
+.tamagoyaki1 {
+    display: inline;
+    position: absolute;
+    top: 0;
+    /* left: 0; */
+    z-index: 2;
+}
+
+.tamagoyaki2 {
+    display: inline;
+    position: absolute;
+    top: 27%;
+    /* left: 0; */
+    z-index: 4;
 }
 
 
