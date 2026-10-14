@@ -19,7 +19,7 @@
 
 @font-face {
     font-family: "Japan Ramen";
-    src: url('./global-assets/JAPAN\ RAMEN.otf') format('opentype');
+    src: url('../../global-assets/JAPAN\ RAMEN.otf') format('opentype');
 }
 
 *,
@@ -50,6 +50,44 @@ header {
     height: 4rem;
 
     background-color: var(--red);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 0 2.5rem;
+}
+
+header h1 {
+    font-family: var(--heading-font);
+    font-size: 3rem;
+    letter-spacing: 3px;
+    color: var(--cream);
+}
+
+header a {
+    text-decoration: none;
+}
+
+header a button {
+    outline: none;
+    border: none;
+    padding: 0.25rem 2rem;
+    border-radius: 8px;
+    font-size: 1.5rem;
+    font-family: var(--body-font);
+    letter-spacing: 2px;
+    /* font-weight: 800; */
+
+    background-color: var(--yellow);
+    color: var(--blue);
+
+    transition: all 0.2s ease-in;
+}
+
+header a:hover button {
+    background-color: var(--blue);
+    color: var(--yellow);
 }
 
 
@@ -255,6 +293,8 @@ main {
     /* left: 0; */
     z-index: 4;
 }
+
+
 
 
 footer {
