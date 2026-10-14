@@ -1,26 +1,42 @@
 # Omikuji Bento
 it's like fortune cookie, but bento!
 
+## Features
+- bento theme project
+- 3 pages:
+    - entry page
+    - main game page
+    - info page
+- entry page: big logo and entryway to the main website
+- main game page: has a bento box with 5 dishes. click on any dish to get your fortune scroll
+- info page: bento box grid with information about bento and omikuji
+- randomly picked fortunes (which technically makes it very very luck based)
 
-project planning:
-- title: omikuji bento (omikuji fortune telling se related hai kuch toh)
-- main title logo: https://www.1001fonts.com/japan-ramen-font.html
-- theme: bento/ramen fortune cookie types kuch 
-- hour req: 5hrs
-- design assets: mil hi nahi rahe normal wale acche se (pixl art wale kaise rahenge? lekin unse thoda font nahi match ho raha)
-- color theme: asset ke hisaab se dekhte hai (red + black + wooden types ka soch raha hu)
-- main idea: bento box ke dishes pe click karoge toh fortune niklega on a scroll type cheez pe (possibly item se related kuch theme wise, maybe not waise) [iske alawa 2 aur pages hai lekin woh fillers hai as per submission requirements]
+## Project Screenshot
 
-pages: 
-[page 1: welcome page with logo, title, possibly css animation, and enter button]
-[page 2: main logic + game loop]
-[page 3: about bento + about omikuji + about me/project]
+#### Entry Page
+![entry page](./screenshot-entry.png)
+
+#### Bento Page
+![bento page](./screenshot-bento.png)
+
+#### Info Page
+![info page](./screenshot-about.png)
 
 
-FINDING ASSETS
+## Improvement Scope
+- make it responsive
+- add cool animations throughout the website
 
-Credits:
-https://www.1001fonts.com/japan-ramen-font.html
-https://in.pinterest.com/pin/1131810950127102330/ - color palette
-https://en.wikipedia.org/wiki/O-mikuji
-https://en.wikipedia.org/wiki/Bento
+## Run Locally
+1. clone this repo on your device
+2. open `index.html` in any browser
+
+## Credits
+- made by me
+- logo font: https://www.1001fonts.com/japan-ramen-font.html
+- sub-heading font: https://fonts.google.com/specimen/Cherry+Bomb+One
+- body font: https://fonts.google.com/specimen/Gamja+Flower
+- color palette: https://in.pinterest.com/pin/1131810950127102330/
+- info: https://en.wikipedia.org/wiki/O-mikuji / https://en.wikipedia.org/wiki/Bento
+- assets: canva elements
